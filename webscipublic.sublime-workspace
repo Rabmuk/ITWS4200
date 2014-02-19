@@ -1,0 +1,541 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"co",
+				"console"
+			],
+			[
+				"for",
+				"for	for (…) {…}"
+			],
+			[
+				"w",
+				"weather"
+			],
+			[
+				"aja",
+				"ajaxCall"
+			],
+			[
+				"er",
+				"error"
+			],
+			[
+				"erro",
+				"errorFunc"
+			],
+			[
+				"s",
+				"script"
+			],
+			[
+				"my",
+				"myLon"
+			],
+			[
+				"lon",
+				"longitude"
+			],
+			[
+				"re",
+				"responseData"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"has",
+				"hashtags"
+			],
+			[
+				"ha",
+				"hashtags"
+			],
+			[
+				"en",
+				"entities"
+			],
+			[
+				"hea",
+				"head	Tag"
+			],
+			[
+				"echo",
+				"echo	echo \"…\""
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"cou",
+				"course_list"
+			],
+			[
+				"diff",
+				"Difficulty"
+			],
+			[
+				"gues",
+				"guessSwatch"
+			],
+			[
+				"guess",
+				"guessRGB"
+			],
+			[
+				"rou",
+				"roundSelector"
+			],
+			[
+				"rounds",
+				"roundSelector"
+			],
+			[
+				"on",
+				"onclick"
+			],
+			[
+				"roun",
+				"roundScore"
+			],
+			[
+				"hi",
+				"height"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"dif",
+				"difR"
+			],
+			[
+				"curr",
+				"currentRound"
+			],
+			[
+				"ran",
+				"randomizeColor"
+			],
+			[
+				"ra",
+				"randomizeColor"
+			],
+			[
+				"num",
+				"numOfRounds"
+			],
+			[
+				"tim",
+				"timeTaken"
+			],
+			[
+				"di",
+				"difficulty"
+			],
+			[
+				"ro",
+				"roundEnd"
+			],
+			[
+				"round",
+				"roundTime"
+			],
+			[
+				"tar",
+				"targetR"
+			],
+			[
+				"t",
+				"targetG"
+			],
+			[
+				"slide",
+				"slideRed"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"html",
+				"htmlCode"
+			],
+			[
+				"c",
+				"cvs1"
+			],
+			[
+				"TIT",
+				"title	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 196.0,
+		"selected_items":
+		[
+			[
+				"save",
+				"File: Save All"
+			]
+		],
+		"width": 512.0
+	},
+	"console":
+	{
+		"height": 251.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/D/Dropbox/College/spring14/Web Science/public/index.html",
+		"/D/Dropbox/College/spring14/Web Science/public/lab2/index.html",
+		"/D/Dropbox/College/spring14/Web Science/public/lab2/lab2.js",
+		"/D/Dropbox/College/spring14/Web Science/public/lab2/readme",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-03.txt",
+		"/D/Dropbox/College/spring14/Web Science/public/lab2/bootstrap-3.1.0/dist/css/bootstrap.css",
+		"/D/Dropbox/College/spring14/Web Science/public/lab2/bootstrap-3.1.0/dist/test.html",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1/index.html",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1/update.js",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1alt/lab1js.js",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1/readme",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1alt/lab1index.html",
+		"/D/Program Files/PebbleSDK-2.0.0/requirements.txt",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1/style.css",
+		"/D/Downloads/PebbleSDK-2.0.0/README.txt",
+		"/D/Downloads/PebbleSDK-2.0.0/tools/README.md",
+		"/D/Dropbox/iD tech/Summer 2014/programming exercises/algo lab2.html",
+		"/D/Downloads/tweets.json",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1/tweets.json",
+		"/D/Dropbox/College/spring14/Web Science/public/testing/index.html",
+		"/D/Dropbox/College/spring14/Web Science/public/info/index.php",
+		"/D/Dropbox/College/spring14/Web Science/public/lab1/index.php",
+		"/D/Dropbox/College/spring14/Web Science/public/index.php",
+		"/D/Program Files/xampp/apache/conf/httpd.conf",
+		"/D/Program Files/xampp/apache/conf/extra/httpd-vhosts.conf",
+		"/C/WINDOWS/System32/drivers/etc/hosts",
+		"/d/program",
+		"/d/program files/xampp/files/xampp/apache/conf/extra/httpd-ssl.conf",
+		"/d/program files/xampp/files/xampp/apache/conf/httpd.conf",
+		"/d/program files/xampp/files/xampp/mysql/bin/my.ini",
+		"/d/program files/xampp/files/xampp/php/php.ini",
+		"/d/program files/xampp/files/xampp/apache/conf/extra/httpd-xampp.conf",
+		"/D/Dropbox/College/spring14/Algo/workspace/testing/factorial.cpp",
+		"/D/Dropbox/College/spring14/Algo/workspace/testing/factorialrecursive.cpp",
+		"/D/Dropbox/College/spring14/Algo/workspace/testing/sum.cpp",
+		"/D/Dropbox/baggage damage/value.txt",
+		"/D/Dropbox/Psi Upsilon/archon/bank when is good.txt",
+		"/D/Dropbox/rabserver/Test Project/blah.php",
+		"/D/Dropbox/rabserver/Test Project/ip.php",
+		"/D/Dropbox/rabserver/Test Project/index.html",
+		"/D/Dropbox/rabserver/Test Project/test.php",
+		"/D/Dropbox/rabserver/Test Project/testProj.sublime-project",
+		"/D/Dropbox/rabserver/Test Project/ftpsync.settings",
+		"/D/Dropbox/College/fall13/Web Systems/lab7/lab7.sublime-project",
+		"/D/Dropbox/College/fall13/Web Systems/week 10/lec14inClass/lec14inClass2-forms/lec14_forms.php",
+		"/D/Dropbox/rabserver/temp password.txt",
+		"/D/Dropbox/rabserver/username.txt",
+		"/D/Dropbox/rabserver/order confirmation.txt",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/websys-assignment-2-team-4.sublime-project",
+		"/D/Program Files/xampp/htdocs/webForms/resources/PHPIntroWebForms.js",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/index.html",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/Team4Scores.html",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/README.txt",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/resources/assignment2team4.js",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/resources/score.js",
+		"/D/Dropbox/College/fall13/Web Systems/lab6/Lab 6 start.html",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/resources/assignment2team4.css",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/Team#Scores.html",
+		"/D/WinRAR temp/Rar$DIa0.090/alexkumbar-lab4.js",
+		"/D/Dropbox/College/fall13/Undergraduate Research project/temp/Cleaned Data/TreoCaseLevelFLClean.csv",
+		"/D/AppData/Roaming/Sublime Text 2/Packages/User/Default (Windows).sublime-keymap",
+		"/D/AppData/Roaming/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/D/WinRAR temp/Rar$DIa0.104/alexkumbar-lab4.js",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/assignment2team4.js",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/test.js",
+		"/D/Dropbox/College/fall13/Web Systems/hw2/websys-assignment-2-team-4/assigment2team4.js",
+		"/C/Users/AKumbar/.ssh/id_rsa.pub",
+		"/D/Program Files/xampp/htdocs/websys/lab 4/resources/alexkumbar-lab4.js",
+		"/D/Program Files/xampp/htdocs/websys/lab 4/alexkumbar-lab4.html",
+		"/D/Program Files/xampp/htdocs/websys/lab 4/resources/lab4.json",
+		"/D/Program Files/xampp/htdocs/websys/lab 4/resources/lab4.js",
+		"/D/Dropbox/College/fall13/Web Systems/week 7/canvas.html",
+		"/D/Dropbox/College/fall13/Web Systems/week 7/ball bounce.html",
+		"/D/Dropbox/College/fall13/Web Systems/week 7/location.html",
+		"/D/Dropbox/College/fall13/Web Systems/week 7/Alice's Adventures in Wonderland  Chapter IV  The Rabbit Sends in a Little Bill.htm",
+		"/D/Dropbox/College/fall13/Web Systems/lab4/lab4.html",
+		"/D/AppData/Roaming/Sublime Text 2/Packages/User/HTML.sublime-settings",
+		"/D/Dropbox/College/fall13/Undergraduate Research project/temp/PPCLevelFilelayoutforNY2.CSV"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": true,
+		"find_history":
+		[
+			"storePosition",
+			"showPosition",
+			"sytle",
+			"blah",
+			"items",
+			"entities",
+			"dropbox.local",
+			"”",
+			"course_list",
+			"totalRounds",
+			"setupUI",
+			"can",
+			"canvas",
+			"alert",
+			"mainDiv",
+			"context.arc",
+			">\n",
+			"\\\">\n",
+			"\"\n",
+			"\"",
+			"\\\"",
+			"\"",
+			"setDifficulty",
+			"arg",
+			"context",
+			"Context",
+			"context",
+			"ctx",
+			"roundTime",
+			"\n    ",
+			"myCanvas",
+			"<canvas>",
+			"<p>",
+			"</STRONG>",
+			"<STRONG>"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"websci",
+			"\"",
+			"\\\"",
+			"'",
+			"\\\"",
+			"</p><p>",
+			"</b>",
+			"<b>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"in",
+				"index.html"
+			],
+			[
+				"lab2in",
+				"lab2/index.html"
+			],
+			[
+				"lab2",
+				"lab2/lab2.js"
+			],
+			[
+				"lab2index",
+				"lab2/index.html"
+			],
+			[
+				"boots",
+				"lab2/bootstrap-3.1.0/dist/css/bootstrap.css"
+			],
+			[
+				"index",
+				"lab1/index.html"
+			],
+			[
+				"js",
+				"lab1/update.js"
+			],
+			[
+				"up",
+				"lab1/update.js"
+			],
+			[
+				"lab1.js",
+				"lab1alt/lab1js.js"
+			],
+			[
+				"alt",
+				"lab1alt/lab1js.js"
+			],
+			[
+				"lab1in",
+				"lab1alt/lab1index.html"
+			],
+			[
+				"css",
+				"lab1/style.css"
+			],
+			[
+				"lab1",
+				"lab1/index.html"
+			],
+			[
+				"test",
+				"testing/index.html"
+			],
+			[
+				"php",
+				"info/index.php"
+			],
+			[
+				"",
+				"index.html"
+			],
+			[
+				"inde",
+				"lab1/index.php"
+			],
+			[
+				"ind",
+				"index.html"
+			],
+			[
+				"blah",
+				"blah.php"
+			],
+			[
+				"h",
+				"index.html"
+			],
+			[
+				"tea",
+				"Team4Scores.html"
+			],
+			[
+				"s",
+				"resources/score.js"
+			],
+			[
+				"ht",
+				"Team4Scores.html"
+			],
+			[
+				"sco",
+				"resources/score.js"
+			],
+			[
+				"j",
+				"resources/assignment2team4.js"
+			],
+			[
+				"team",
+				"Team#Scores.html"
+			],
+			[
+				"score",
+				"resources/score.js"
+			],
+			[
+				"ass",
+				"resources/assignment2team4.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 278.0,
+	"status_bar_visible": true
+}

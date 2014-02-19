@@ -1,0 +1,3 @@
+Name: Alex Kumbar
+
+It was fun exploring an API and the kind of objects they returned, its amazing how much data is contained in a single object. I found the styling I could creat using bootstrap was far better looking than things I've previously made. It also took far less time to style the pages. I have a better understanding of the imporatnce of making code assesible to other programmers and how much time and effort can be saved by using open libraries.

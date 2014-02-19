@@ -1,0 +1,55 @@
+body{
+  overflow: auto;
+}
+
+h2{
+  margin-left: 10%;
+}
+
+#content{
+  margin: auto;
+  width: 60%;
+  overflow: auto;
+  border: solid 1px black;
+  border-radius: 10px;
+  background: blue;
+}
+
+ul{
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+ul li{
+  /*height: 40px;*/
+}
+
+#tweets{
+  float: left;
+  width: 60%;
+}
+
+#tweetslist{
+  
+}
+
+#tweetslist li{
+  background: lightblue;
+  padding: 10px;
+}
+
+#hashtags{
+  float: left;
+  width: 40%;
+}
+
+#hashlist{
+
+}
+
+#hashlist li{
+  background: blue;
+  color: white;
+  padding: 10px;
+}

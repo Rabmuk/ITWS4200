@@ -1,0 +1,64 @@
+body{
+  background-color: pink;
+}
+
+li{
+	list-style: none;
+	padding: 10px 10px 10px 10px; 
+	margin: 0px 0px 10px -2em;
+	border: 2px cyan solid;
+	background-color: white; 
+	border-radius: 10px;
+	display: none;
+}
+
+li:nth-child(1) {
+display: block;
+}
+
+li:nth-child(2) {
+display: block;
+}
+
+li:nth-child(3) {
+display: block;
+}
+
+li:nth-child(4) {
+display: block;
+}
+
+li:nth-child(5) {
+display: block;
+}
+
+#tweetsYo{
+	background-color: lightgrey;
+  top: 15px;
+  width: 640px;  
+  height: 370px;
+  position: absolute;
+  left: 50%;
+  margin-left: -320px;  
+  border: none;
+  padding: 5px 10px 5px 10px;
+  overflow-y: hidden; 
+  border: 2px solid grey;
+  border-radius: 20px;
+}
+
+#hashtagsYo{
+	background-color: grey;
+  top: 410px;
+  width: 500px;  
+  height:300px;
+  position: absolute;
+  left: 50%;
+  margin-left: -250px; 
+  padding: 10px 10px 10px 10px;
+  overflow-y: hidden; 
+  border-radius: 20px;
+  border: 2px solid black;
+  margin-bottom: 230px;
+}
+
