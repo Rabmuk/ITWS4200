@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <title>kumbaa3 Lab 4</title>
+</head>
+<body>
+  <h1>Listing your ferns birthdays!</h1>
+  
+  <script type="text/javascript">
+  var graphArgs = "fields=friends.fields(name,birthday,picture.type(normal))";
+  var accessToken = "CAACEdEose0cBAGzFwheG0oF4Dx4Px4kc5U6MXSXracTiu6WS7EWBXNBzQr8rNXz3sklsy6x5Yw6s8UBN8yCv330YB6MIpXZBy8Go4KSzohvFYpp6FKkIf5BZC8julk14JnWfpXcmi0XrOAvBFmZAfFPr4agV0VunerqndZBtrZAYZCgziiIfTl7zhV2yztkRkZD"
+  $.ajax({
+    type: "GET",
+    url: "https://graph.facebook.com/me/?access_token=" + accessToken + "&" + graphArgs,
+    dataType: "json",
+    success: function(responseData, status) {
+      console.log(responseData);
+    },
+    error: function(msg) {
+      alert("There was a problem: " + msg.status + " " + msg.statusText);
+    }
+  })
+</script>
+</body>
+</html>

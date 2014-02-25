@@ -1,0 +1,15 @@
+{
+
+	"default": {
+
+		"host": "ftp.rabserver.com",
+		"username": "upload@rabserver.com",  // or null for anonymous login
+		"password": "w;Vk5uPqnK$}",
+		"path": "/websci/lab4",
+
+		"upload_on_save": true // set *false* if you do not want to upload on save!
+
+	}
+
+
+}

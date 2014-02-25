@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"frie",
+				"friendslist"
+			],
+			[
+				"acc",
+				"accessToken"
+			],
+			[
+				"graph",
+				"graphArgs"
+			],
+			[
 				"co",
 				"console"
 			],
@@ -208,11 +220,29 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/webscipublic.sublime-project",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-06.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-03.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-18.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-10.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-13.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-20.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-01-30.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-01-23.txt",
+		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-01-27.txt",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab4/index.html",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab4/ftpsync.settings",
+		"/D/Dropbox/rabserver/ftp accounts.txt",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab1/index.html",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab2/lab2.js",
+		"/D/Program Files/xampp/apache/conf/httpd.conf",
+		"/d/program",
+		"/d/program files/xampp/files/xampp/apache/conf/httpd.conf",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab3/readme.txt",
 		"/D/Dropbox/College/spring14/Web Science/public/index.html",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/index.html",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/lab2.js",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/readme",
-		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-03.txt",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/bootstrap-3.1.0/dist/css/bootstrap.css",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/bootstrap-3.1.0/dist/test.html",
 		"/D/Dropbox/College/spring14/Web Science/public/lab1/index.html",
@@ -231,12 +261,9 @@
 		"/D/Dropbox/College/spring14/Web Science/public/info/index.php",
 		"/D/Dropbox/College/spring14/Web Science/public/lab1/index.php",
 		"/D/Dropbox/College/spring14/Web Science/public/index.php",
-		"/D/Program Files/xampp/apache/conf/httpd.conf",
 		"/D/Program Files/xampp/apache/conf/extra/httpd-vhosts.conf",
 		"/C/WINDOWS/System32/drivers/etc/hosts",
-		"/d/program",
 		"/d/program files/xampp/files/xampp/apache/conf/extra/httpd-ssl.conf",
-		"/d/program files/xampp/files/xampp/apache/conf/httpd.conf",
 		"/d/program files/xampp/files/xampp/mysql/bin/my.ini",
 		"/d/program files/xampp/files/xampp/php/php.ini",
 		"/d/program files/xampp/files/xampp/apache/conf/extra/httpd-xampp.conf",
@@ -303,6 +330,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"reverse",
 			"storePosition",
 			"showPosition",
 			"sytle",
@@ -410,6 +438,18 @@
 		"selected_items":
 		[
 			[
+				"inde",
+				"lab1/index.html"
+			],
+			[
+				"js",
+				"lab2/lab2.js"
+			],
+			[
+				"lab3",
+				"lab3/readme.txt"
+			],
+			[
 				"in",
 				"index.html"
 			],
@@ -432,10 +472,6 @@
 			[
 				"index",
 				"lab1/index.html"
-			],
-			[
-				"js",
-				"lab1/update.js"
 			],
 			[
 				"up",
@@ -472,10 +508,6 @@
 			[
 				"",
 				"index.html"
-			],
-			[
-				"inde",
-				"lab1/index.php"
 			],
 			[
 				"ind",
