@@ -1,0 +1,3 @@
+Alex Kumbar
+
+JQuery mobile was interesting. I had troubles linking to the proper file at first, but once I looked into the <base> tag I was able to remove it from the example code on the jquery demo site, and relink to the proper css and js required for JQuery mobile. The built in responsiveness of JQuery mobile was very useful and learning how to use listViews and the grid system was fun. I choose to use the Facebook Graph API because it is fun and intuitive to use. I ran into several problems with access tokens, and spent a lot of time trying to generate one with the proper permissions that wouldn't expire after an hour. 

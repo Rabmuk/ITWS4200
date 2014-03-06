@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var tweets = [];
   var has = [];
-  var data = $.getJSON("tweets.json", function (data) {
+  var data = $.getJSON("tweets2.json", function (data) {
     $.each(data, function (key, val) {
       tweets.push(val.text);
       var tempHashes = val.entities.hashtags;

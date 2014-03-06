@@ -1,26 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html class="ui-mobile">
 <head>
-  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-  <title>kumbaa3 Lab 4</title>
+  <!-- <base href="http://demos.jquerymobile.com/1.4.1/pages-multi-page/index.html"> -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>kumbaa3 lab 4</title>
+  <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.1/css/themes/default/jquery.mobile-1.4.1.min.css">
+  <link rel="stylesheet" href="http://demos.jquerymobile.com/1.4.1/_assets/css/jqm-demos.css">
+  <link rel="shortcut icon" href="http://demos.jquerymobile.com/1.4.1/favicon.ico">
+  <script src="http://demos.jquerymobile.com/1.4.1/js/jquery.js"></script>
+  <script src="http://demos.jquerymobile.com/1.4.1/_assets/js/index.js"></script>
+  <script src="http://demos.jquerymobile.com/1.4.1/js/jquery.mobile-1.4.1.min.js"></script>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Listing your ferns birthdays!</h1>
-  
+  <div data-role="header">
+    <h1>Facebook Birthday Finder</h1>
+  </div><!-- /header -->
+
+  <div class="ui-grid-a ui-responsive">
+    <div class="ui-block-a">
+      <!-- <p>There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. There is a lot of text here just to take up space. </p> -->
+      <form>
+        <input id="filter-for-listview" data-type="search" placeholder="Type to search...">
+      </form>
+      <ul data-role="listview" data-inset="true" data-filter="true" data-input="#filter-for-listview" id="friendsListView">
+      </ul>
+    </div>
+    <div class="ui-block-b">
+      <div id="personalInfo" class="ui-bar ui-bar-a">
+        <p>Please search using the listview to the left to find out birthday information for your friends.</p>
+      </div>
+    </div>
+  </div><!-- /grid-a -->
+
+  <div data-role="popup" id="popupInfo" data-theme="a" class="ui-corner-all">
+    <a href="#" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    <div id="popupContent">
+      <h3>Info for [name]</h3>
+    </div>
+    
+  </div>
+
   <script type="text/javascript">
-  var graphArgs = "fields=friends.fields(name,birthday,picture.type(normal))";
-  var accessToken = "CAACEdEose0cBAGzFwheG0oF4Dx4Px4kc5U6MXSXracTiu6WS7EWBXNBzQr8rNXz3sklsy6x5Yw6s8UBN8yCv330YB6MIpXZBy8Go4KSzohvFYpp6FKkIf5BZC8julk14JnWfpXcmi0XrOAvBFmZAfFPr4agV0VunerqndZBtrZAYZCgziiIfTl7zhV2yztkRkZD"
+
+  var resData;
+
+  var graphArgs = "fields=picture.type(large),friends.fields(birthday,name,picture.type(normal)),name";
+  var accessToken = "CAAJpF4tLAcsBAJCSExpZApZAa3Nulv08ObvQZANp2MAe7ZCyMl5R8ZCBR64GW6xVwqIv6ClgppDRUN3yde0oY9FWVkg13ZBDaXHwZCDBvxDIBqR8AqGqsu98sZBRNYRRWXDTqWAJywRmA5FvKi3o1QZCZB9SgpET4UaanoAW7dh6PnshIvqpf1sJGt"
   $.ajax({
     type: "GET",
     url: "https://graph.facebook.com/me/?access_token=" + accessToken + "&" + graphArgs,
     dataType: "json",
     success: function(responseData, status) {
       console.log(responseData);
+      resData = responseData;
+      for (var i = 0; i < responseData.friends.data.length; i++) {
+        var listIten = $('<li>', {
+         html: '<a id="' + i +'-listIten" href="#popupInfo" data-rel="popup" data-position-to="window" class="ui-btn ui-corner-all ui-shadow ui-btn-inline ui-icon-check ui-btn-icon-left ui-btn-a" data-transition="pop">' + responseData.friends.data[i].name + "</a>"
+       });
+        $("#friendsListView").append(listIten);
+      };
+      $('#friendsListView').listview('refresh');
+
+      var name = $('<h4/>',{
+        html:"Facebook Graph call for: " + responseData.name
+      });
+      name.appendTo("#personalInfo");
+      var picture = $('<img/>',{
+        src: responseData.picture.data.url
+      });
+      picture.appendTo("#personalInfo");
+
     },
     error: function(msg) {
       alert("There was a problem: " + msg.status + " " + msg.statusText);
     }
   })
+
+$('#friendsListView').on('click', 'li', function() {
+  $("#popupContent").html("");
+  var listItenId = $(this).children(":first").attr("id");
+  var index = listItenId.split('-')[0];
+  var friend = resData.friends.data[index];
+  var name = $('<h2/>',{
+    html:"Information for " + friend.name
+  });
+  name.appendTo("#popupContent");
+  var picture = $('<img/>',{
+    src: friend.picture.data.url
+  });
+  picture.appendTo("#popupContent");
+  var birthday;
+  if (friend.birthday != null) {
+    birthday = $('<h4/>',{
+      html:"Birthday: " + friend.birthday
+    });
+  }else{
+    birthday = $('<h4/>',{
+      html:"Birthday not listed."
+    });
+  }
+  birthday.appendTo("#popupContent");
+
+});
 </script>
 </body>
 </html>
