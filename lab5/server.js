@@ -4,6 +4,7 @@ var express = require('express');
 var app = express();
 
 var NUMBER_OF_TWEETS = 10;
+var streaming = false;
 
 var twit = new twitter({
   consumer_key: 'WZJHVqj0JwafP6PTm0kA',
@@ -12,28 +13,29 @@ var twit = new twitter({
   access_token_secret: 'gDCiTAhQIWyuQhSbPWJObMYrzgDccI6AW1GKeGkQN7JKO'
 });
 
-// var http=require('http');
-
-// var httpServer = http.createServer(function(request, response) {
-//  response.writeHead(200, {
-//   'Content-type': 'text/plain'
-// });
-//  response.end(count + ' tweets have been recorded.');
-// }).listen(8000);
-// console.log('Listening on http://127.0.0.1:8000');
 var count = 0;
 app.get('/status', function(req, res){
-  if(count < NUMBER_OF_TWEETS){
-    res.send(count + ' tweets have been recorded.');
+  if(streaming){
+    var html = '<p>' + count + ' tweets have been recorded.</p>';
+    html += '<p><a href="status">refresh</p>';
+    res.send(html);
   }else{
-    res.send('All tweets have been recorded. File has been closed.');
+    var html = '<p>All tweets have been recorded. File has been closed.</p>';
+    html += 'Start another read at <a href="start">localhost:3000/start</a>.';
+    html += '<p>View the file at <a href="file">localhost:3000/file</a></p>'
+    html += '<p>Download the file at <a href="tweets.json">localhost:3000/tweets.json</a></p>'
+    res.send(html);
   }
 });
 app.get('/', function(req, res){
-  res.send('Please go to localhost:3000/start in order to start streaming tweets.');
+  var html = 'Please go to <a href="start">localhost:3000/start</a> in order to start streaming tweets.';
+  html += '<p>View the file at <a href="file">localhost:3000/file</a></p>'
+  html += '<p>Download the file at <a href="tweets.json">localhost:3000/tweets.json</a></p>'
+  res.send(html);
 });
 app.get('/start', function(req, res){
   count = 0;
+  streaming = true;
 var sw='-73.68,42.72', ne='-73.67,42.73'; //  RPI
 twit.stream('statuses/filter', {'locations':sw +','+ne},
   function(stream) {
@@ -50,7 +52,7 @@ twit.stream('statuses/filter', {'locations':sw +','+ne},
       {
         fs.appendFile('tweets.json', ",\n" + JSON.stringify(response), function (err) {
           if (err) throw err;
-          console.log('The tweet json was appended to file!');
+          console.log('A tweet was appended to the file!');
         });
         ++count;
       }
@@ -58,7 +60,8 @@ twit.stream('statuses/filter', {'locations':sw +','+ne},
       {
         fs.appendFile('tweets.json', "\n]", function (err) {
           if (err) throw err;
-          console.log('The file is complete!');
+          streaming = false;
+          console.log('The ' + NUMBER_OF_TWEETS + 'th tweet as been added, file is complete!');
         });
         stream.destroy();
       }
@@ -71,15 +74,21 @@ twit.stream('statuses/filter', {'locations':sw +','+ne},
   });
     
   });
-res.send('Tweet streaming has begun to tweets.json.');
-res.send('Go to localhost:3000/status to view current status.');
+var html = '<p>Tweet streaming has begun to tweets.json.</p>';
+html += 'Go to <a href="status">localhost:3000/status</a> to view current status.';
+res.send(html);
 });
-app.get('/file', function(req, res){
-  fs.readFile('tweets.json', 'UTF-8' ,function (err, data) {
-  if (err) throw err;
-  // console.log(data);
-  res.send(JSON.parse(data));
+app.get('/file', function(req, res)
+{
+  fs.readFile('tweets.json', 'UTF-8' ,function (err, data){
+    if (err) throw err;
+    var html = JSON.parse(data);
+    res.send(html);
+  });
 });
+app.get('/tweets.json', function(req, res){
+  var file = __dirname + '/tweets.json';
+  res.download(file);
 });
 
 

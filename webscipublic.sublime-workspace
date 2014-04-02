@@ -4,16 +4,60 @@
 		"selected_items":
 		[
 			[
+				"csv",
+				"csv"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"crea",
+				"created_at"
+			],
+			[
+				"w",
+				"writeFile"
+			],
+			[
+				"to",
+				"toCSV"
+			],
+			[
+				"strea",
+				"stream"
+			],
+			[
+				"so",
+				"sockets"
+			],
+			[
+				"soc",
+				"sockets"
+			],
+			[
+				"sock",
+				"socket"
+			],
+			[
+				"stre",
+				"streaming"
+			],
+			[
+				"n",
+				"NUMBER_OF_TWEETS"
+			],
+			[
+				"st",
+				"stringify"
+			],
+			[
 				"lo",
 				"localhost"
 			],
 			[
 				"stat",
 				"statuses"
-			],
-			[
-				"n",
-				"NUMBER_OF_TWEETS"
 			],
 			[
 				"re",
@@ -86,10 +130,6 @@
 			[
 				"for",
 				"for	for (…) {…}"
-			],
-			[
-				"w",
-				"weather"
 			],
 			[
 				"aja",
@@ -248,10 +288,10 @@
 	"buffers":
 	[
 		{
-			"file": "lab5/serve.js",
+			"file": "quiz1/server.js",
 			"settings":
 			{
-				"buffer_size": 2653,
+				"buffer_size": 113,
 				"line_ending": "Unix"
 			}
 		}
@@ -284,19 +324,31 @@
 	},
 	"file_history":
 	[
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab 6/server.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab3/readme.txt",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab 6/tweets.json",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab 6/tweets.csv",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab 6/readme.txt",
+		"/D/Downloads/tweets.json",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/package.json",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/webscipublic.sublime-project",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/quiz1/index.html",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/quiz1/server.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/app.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/quiz1/question5.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/quiz1/q5client.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/server.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/serve.js",
+		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/message.txt",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab1/update.js",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab1/tweets2.json",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/tweets.json",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/node_modules/express/index.js",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/node_modules/express/Readme.md",
-		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/app.js",
-		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/serve.js",
 		"/D/Downloads/file",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab1/index.html",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab1/tweets.json",
-		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/message.txt",
 		"/D/Dropbox/College/spring14/Java/labs/lab4 answers.txt",
-		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/package.json",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab5/hello.txt",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab4/style.css",
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab4/index.html",
@@ -304,7 +356,6 @@
 		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab4/test.html",
 		"/D/Dropbox/rabserver/username.txt",
 		"/D/Dropbox/rabserver/ftp accounts.txt",
-		"/D/Dropbox/College/spring14/Web Science/ITWS4200/webscipublic.sublime-project",
 		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-06.txt",
 		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-03.txt",
 		"/D/Dropbox/College/spring14/Algo/professor notes/spring2014-csci2300-notes-02-18.txt",
@@ -319,7 +370,6 @@
 		"/D/Program Files/xampp/apache/conf/httpd.conf",
 		"/d/program",
 		"/d/program files/xampp/files/xampp/apache/conf/httpd.conf",
-		"/D/Dropbox/College/spring14/Web Science/ITWS4200/lab3/readme.txt",
 		"/D/Dropbox/College/spring14/Web Science/public/index.html",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/index.html",
 		"/D/Dropbox/College/spring14/Web Science/public/lab2/lab2.js",
@@ -336,7 +386,6 @@
 		"/D/Downloads/PebbleSDK-2.0.0/README.txt",
 		"/D/Downloads/PebbleSDK-2.0.0/tools/README.md",
 		"/D/Dropbox/iD tech/Summer 2014/programming exercises/algo lab2.html",
-		"/D/Downloads/tweets.json",
 		"/D/Dropbox/College/spring14/Web Science/public/lab1/tweets.json",
 		"/D/Dropbox/College/spring14/Web Science/public/testing/index.html",
 		"/D/Dropbox/College/spring14/Web Science/public/info/index.php",
@@ -408,9 +457,20 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": true,
+		"case_sensitive": false,
 		"find_history":
 		[
+			"flatten",
+			"date",
+			"console",
+			"toCSV",
+			"writefile",
+			"\"/\"",
+			"\"\\\"",
+			"\"/\"",
+			"/status",
+			"/file",
+			"log",
 			"has",
 			"console",
 			"status",
@@ -493,28 +553,26 @@
 			[
 				{
 					"buffer": 0,
-					"file": "lab5/serve.js",
+					"file": "quiz1/server.js",
 					"settings":
 					{
-						"buffer_size": 2653,
+						"buffer_size": 113,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1624,
-								1624
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 429.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -564,8 +622,36 @@
 		"selected_items":
 		[
 			[
+				"server",
+				"quiz1/server.js"
+			],
+			[
+				"lab6",
+				"lab 6/server.js"
+			],
+			[
 				"twee",
-				"lab5/tweets.json"
+				"lab 6/tweets.json"
+			],
+			[
+				"csv",
+				"lab 6/tweets.csv"
+			],
+			[
+				"lab6/t",
+				"lab 6/tweets.json"
+			],
+			[
+				"app",
+				"lab5/app.js"
+			],
+			[
+				"serv",
+				"lab5/server.js"
+			],
+			[
+				"ser",
+				"lab5/serve.js"
 			],
 			[
 				"lab5",
@@ -574,10 +660,6 @@
 			[
 				"twe",
 				"lab1/tweets2.json"
-			],
-			[
-				"app",
-				"lab5/app.js"
 			],
 			[
 				"stye",
