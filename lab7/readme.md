@@ -1,0 +1,5 @@
+Name: Alex Kumbar
+
+Lab 7 was hard to get started. I initally didn't install mongo correctly. I then had problems configuring where mongo saved information to. Once that was working I was able to add functionality to the tweet stream, so that it also streamed to mongo. Then I added a page where the tweets held in the mongo database are displayed.
+I was unable to get the lab 1 rework to read from the mongo database. I tried two ways of passing data from the server to the client. I tried adding a script section to an index.html where I populated an array with the relavent information, but this was not viewable by the update.js file. When adding alert("test") to the file it would not display the alert. I also tried directly appending the array to update.js, but I was unable to remove the appended part form update.js after each call.
+Mongo was easy to use and the relational way that information was stored was great. A lot less setup for each table compared to MySql.
